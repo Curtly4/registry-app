@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-image: url(images/todo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.registry form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.registry input[type="submit"] {
+  color: #fff;
+  background-color: #820300;
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+.registry input[type="text"] {
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+ul {
+  margin-top: 50px;
+  list-style-type: square;
+  max-width: 400px;
+  margin: auto;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10 px;
+  border-bottom: 2px solid #000;
+}
+
+.App-link {
+  color: #61dafb;
+}
